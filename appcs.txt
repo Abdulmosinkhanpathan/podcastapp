@@ -1,0 +1,57 @@
+import React from 'react'
+import './index.css'
+import Navbarapp from './Navbarapp'
+import { Routes, Route} from 'react-router-dom';
+import Login from './Login'
+import UploadVideo from './UploadVideo';
+const App = () => {
+  return (
+    <>
+    <Navbarapp/>
+          <h1 style={{marginTop:"25px"}}><span className='span1'>Video</span> <span className='span2'>Streaming Application</span></h1>
+    <div className="app">
+      <div className="row">
+    <div className='div'>
+      <video controls><source src='https://d7bpjl9wjbv93.cloudfront.net/podcast.mp4' type="video/mp4"/></video>
+      <h3>The Library Podcast By Harry Featuring top ceo's.</h3>
+    </div>
+    <div className='div'>
+    <video controls><source src='https://d7bpjl9wjbv93.cloudfront.net/4540151-hd_1920_1080_30fps.mp4' type="video/mp4"/>
+    </video>
+    <h3>Unfiltered Conversations: Exploring the Human Experience</h3>
+  </div>
+  <div className='div'>
+    <video controls><source src='https://d7bpjl9wjbv93.cloudfront.net/6878737-hd_2048_1080_25fps.mp4' type="video/mp4"/>
+    </video>
+    <h3>Mind Matters: Navigating Mental Health in Today's World</h3>
+  </div>
+  </div>
+  <div className="row">
+  <div className='div'>
+    <video controls><source src='https://d7bpjl9wjbv93.cloudfront.net/6953428-hd_2048_1080_25fps.mp4' type="video/mp4"/>
+    </video>
+    <h3>Trailblazers: Stories of Innovation and Inspiration</h3>
+  </div>
+  <div className='div'>
+    <video controls><source src='https://d7bpjl9wjbv93.cloudfront.net/podcast3.mp4' type="video/mp4"/>
+    </video>
+    <h3>Cultural Kaleidoscope: Celebrating Diversity and Identity</h3>
+  </div>
+  <div className='div'>
+    <video controls><source src='https://d7bpjl9wjbv93.cloudfront.net/podcast4.mp4' type="video/mp4"/>
+    </video>
+    <h3>The Science of Everything: Unraveling the Mysteries of the Universe</h3>
+  </div>
+  </div>
+  </div>
+  <Routes>
+    <Route path="/login" element={<Login/>}/>
+    <Route path="/upload" element={<UploadVideo/>}/>
+    <Route element={<App/>}/>
+  </Routes>
+  </>
+
+  )
+}
+
+export default App
