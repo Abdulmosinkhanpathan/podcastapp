@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/podcastapp/static/css/main.e94488b2.css",
-    "main.js": "/podcastapp/static/js/main.c1a6f556.js",
+    "main.css": "/podcastapp/static/css/main.00b11c91.css",
+    "main.js": "/podcastapp/static/js/main.7e8ec300.js",
     "static/media/podcast5.mp4": "/podcastapp/static/media/podcast5.fdf377b5c4c752ebc91d.mp4",
     "static/media/podcast6.mp4": "/podcastapp/static/media/podcast6.b66271cdb6bb064abdad.mp4",
     "static/media/podcast3.mp4": "/podcastapp/static/media/podcast3.db10f3674510a98a4b8b.mp4",
@@ -10,11 +10,11 @@
     "static/media/podcast9.mp4": "/podcastapp/static/media/podcast9.079ee386cc08cfbb3efb.mp4",
     "static/media/image.png": "/podcastapp/static/media/image.6d9c5d124caae72c32c7.png",
     "index.html": "/podcastapp/index.html",
-    "main.e94488b2.css.map": "/podcastapp/static/css/main.e94488b2.css.map",
-    "main.c1a6f556.js.map": "/podcastapp/static/js/main.c1a6f556.js.map"
+    "main.00b11c91.css.map": "/podcastapp/static/css/main.00b11c91.css.map",
+    "main.7e8ec300.js.map": "/podcastapp/static/js/main.7e8ec300.js.map"
   },
   "entrypoints": [
-    "static/css/main.e94488b2.css",
-    "static/js/main.c1a6f556.js"
+    "static/css/main.00b11c91.css",
+    "static/js/main.7e8ec300.js"
   ]
 }
